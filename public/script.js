@@ -1,0 +1,1 @@
+alert('Apakah ingin melihat halaman ini?');

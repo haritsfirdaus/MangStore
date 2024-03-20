@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PRODUCT MANGSTORE</title>
+</head>
+<body>
+    <!-- header -->
+    <nav class="flex">
+        <div>
+            <ul class="flex gap-4 text-[14px] py-[10px] px-[12px] ml-[120px] my-[20px] text-teal-900">
+                <li><button>Home</button></li>
+                <li><button>Product</button></li>
+                <li><button>Blog</button></li>
+            </ul>
+        </div>
+        <div class="ml-[322px] my-[20px]">
+            <img src="../image/logo-mangstore.svg" alt="">
+        </div>
+        <div class="ml-[322px] my-[20px] flex gap-[8px]">
+            <img src="../image/logo-search.svg" alt="">
+            <img src="../image/logo-cart.svg" alt="">
+            <button class="font-bold px-[16px] py-[11px] text-[14px] text-teal-900">Contact Us</button>
+        </div>
+    </nav>
+
+    <!-- all product -->
+    <nav class="w-[991px] h-[64px] mt-[65px] ml-[120px] mr-[329px] gap-[24px] flex">
+        <h1 class="w-[258px] h-[64px] font-bold text-[48px] leading-[63.98px] text-teal-900">All Product</h1>
+        <div class="w-[100px] border h-[1px] border-teal-900 my-[32px]"></div>
+        <p class="w-[585px] h-[51px] font-normal text-[14px] leading-[16.94px] text-gray-600 text-justify">Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac </p>
+    </nav>
+
+    <!-- search something -->
+    <nav class="w-[1199px] h-[56px] gap-[20px] ml-[120px] mt-[32px] flex justify-between mr-[121px] mb-4">
+        <!-- search -->
+        <span class="w-[551px] h-[56px] border-[1px] py-[16px] pl-[16px] pr-[200px] gap-[10px] border-teal-900">
+            <button class="w-[141px] h-[20px] font-normal text-[16px] leading-[20.16px] justify-center">Search something</button>
+        </span>
+        <!-- kategori, tipe, style, price -->
+        <span class="w-[628px] h-[56px] gap-[16px]">
+            <!-- kategori -->
+                    <button class="w-[171px] h-[56px] border-[1px] py-[16px] px-[32px] gap-[10px] border-teal-900">Category</button>
+                    <!-- menu -->
+                <span class="">
+                    <ul class="border border-black rounded-none h-[448px] absolute bg-white w-[184px] ml-[0px] mt-[16px] px-[32px] py-[16px]">
+                      <li class="w-[72px] h-[32px] font-normal text-[16px] leading-[32px] mt-[-6px] mb-[8px] hover:font-bold cursor-pointer">Skin Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[104px] h-[32px] fnt-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Face MakeUp</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[70px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Hair Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[81px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Body Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[71px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Nail Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[68px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Parfume</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[71px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Eye Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[90px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Dental Care</li>
+                      <div class="w-[120px] border-[0.5px] border-gray-300"></div>
+                      <li class="w-[113px] h-[32px] font-normal text-[16px] leading-[32px] my-[8px] hover:font-bold cursor-pointer">Other Product</li>
+                    </ul>
+                </span>
+            <!-- tipe -->
+            <button class="w-[135px] h-[56px] border-[1px] py-[16px] px-[32px] gap-[10px] border-teal-900">Type</button>
+            <!-- style -->
+            <button class="w-[137px] h-[56px] border-[1px] py-[16px] px-[32px] gap-[10px] border-teal-900">Style</button>
+            <!-- price -->
+            <button class="w-[135px] h-[56px] border-[1px] py-[16px] px-[32px] gap-[10px] border-teal-900">Price</button>
+        </span>
+    </nav>
+
+    <!-- list produk -->
+    <nav class="grid grid-cols-4 grid-rows-3 mx-[120px] gap-4">
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim4.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim5.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim6.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim7.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim8.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim9.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim10.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim11.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim12.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim13.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim14.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+        <span>
+            <img class="w-[288px] h-[297px]" src="../image/krim15.svg" alt="">
+            <h1 class="w-[98px] h-[23px] font-bold text-[17px] leading-[22.68px] mt-[19px] ml-[25px] mr-[125px]">Krim Wajah</h1>
+            <div class="justify-between flex ml-[25px]">
+                <h2 class="w-[71px] h-[18px] font-normal text-[14px] leading-[17.64px] text-gray-400 py-[17px]">Face Wash</h2>
+                <h3 class="w-[85px] h-[19px] font-normal text-[14px] leading-[19.12px] text-center py-[17px] text-gray-400">Rp500.000.-</h3>
+            </div>
+        </span>
+    </nav>
+
+    <!-- button -->
+    <nav class="w-[400px] h-[50px] mx-[520px] mt-[48px] flex gap-4 mb-[101px] text-teal-900">
+        <section class="w-[50px] h-[50px]">
+            <button class="py-[15px] px-[21px] font-normal leading-[20.16px] justify-center hover:bg-teal-900 border rounded-none border-teal-800 hover:text-white">1</button>
+        </section>
+        <section class="w-[50px] h-[50px]">
+            <button class="py-[15px] px-[21px] font-normal leading-[20.16px] justify-center hover:bg-teal-900 border rounded-none border-teal-800 hover:text-white">2</button>
+        </section>
+        <section class="w-[50px] h-[50px]">
+            <button class="py-[15px] px-[21px] font-normal leading-[20.16px] justify-center hover:bg-teal-900 border rounded-none border-teal-800 hover:text-white">3</button>
+        </section>
+        <section class="w-[50px] h-[50px]">
+            <button class="py-[15px] px-[21px] font-normal leading-[20.16px] justify-center hover:bg-teal-900 border rounded-none border-teal-800 hover:text-white">...</button>
+        </section>
+        <section class="w-[136px] h-[50px]">
+            <button class="py-[15px] px-[21px] font-normal leading-[20.16px] justify-center hover:bg-teal-900 border rounded-none border-teal-800 hover:text-white text-[16px]">Next &#129122;</button>
+        </section>
+    </nav>
+</body>
+
+<!-- footer -->
+<footer class="w-[1440px] h-[308px] gap-[10px] text-white bg-teal-900 mt-[101px]">
+    <section class="w-[1100px] h-[180px] gap-[24px] mb-[74px] ml-[178px] flex justify-between pt-[54px]">
+        <!-- mangstore logo -->
+        <nav class="w-[367px] h-[180px] gap-[16px]">
+            <img class="w-[141px] h-[40px] gap-[10.25px]" src="../icon/logo-mangstore-white.svg" alt="">
+            <p class="w-[367px] h-[56px] font-normal text-[16px] leading-[28px] mt-[24px]">Mangstore is the solution for high quality goods you need</p>
+            <div class="w-[164px] h-[44px] gap-[10px] flex mt-[26px]">
+                <img class="w-[24px] h-[24px]" src="../icon/ig.svg" alt="">
+                <img class="w-[24px] h-[24px]" src="../icon/wa.svg" alt="">
+                <img class="w-[24px] h-[24px]" src="../icon/linkedin.svg" alt="">
+                <img class="w-[24px] h-[24px]" src="../icon/twiter.svg" alt="">
+            </div>
+        </nav>
+        <!-- mangstore, buy, find us in-->
+        <nav class="w-[458px] h-[169px] gap-[50px] flex">
+            <!-- mangstore -->
+            <div class="w-[115px] h-[120px] gap-[16px]">
+                <h1 class="w-[79px] h-[21px] font-bold text-[16px] leading-[21.33px]">Mangstore</h1>
+                <ul class="w-[115px] h-[83px] gap-[5px] mt-[16px]">
+                    <li class="w-[115px] h-[17px] font-normal text-[14px] leading-[16.8px]">About Mangstore</li>
+                    <li class="w-[38px] h-[17px] font-normal text-[14px] leading-[16.8px]">Home</li>
+                    <li class="w-[49px] h-[17px] font-normal text-[14px] leading-[16.8px]">Product</li>
+                    <li class="w-[28px] h-[17px] font-normal text-[14px] leading-[16.8px]">Blog</li>
+                </ul>
+            </div>
+            <!-- buy -->
+            <div class="w-[93px] h-[169px] gap-[16px]">
+                <h1 class="w-[29px] h-[21px] font-bold text-[16px] leading-[21.33px]">Buy</h1>
+                <ul class="w-[93px] h-[132px] gap-[6px] mt-[16px]">
+                    <li class="w-[74px] h-[17px] font-normal text-[14px] leading-[16.8px]">Men's Wear</li>
+                    <li class="w-[93px] h-[17px] font-normal text-[14px] leading-[16.8px]">Woman's Wear</li>
+                    <li class="w-[64px] h-[17px] font-normal text-[14px] leading-[16.8px]">Kids Wear</li>
+                    <li class="w-[70px] h-[17px] font-normal text-[14px] leading-[16.8px]">Sport Wear</li>
+                    <li class="w-[37px] h-[17px] font-normal text-[14px] leading-[16.8px]">Shoes</li>
+                    <li class="w-[67px] h-[17px] font-normal text-[14px] leading-[16.8px]">Head Wear</li>
+                </ul>
+            </div>
+            <!-- find us in -->
+            <div class="w-[150px] h-[145px] gap-[16px]">
+                <span class="">
+                    <h1 class="w-[80px] h-[21px] font-bold text-[16px] leading-[21.33px]">Find Us In</h1>
+                </span>
+                <span class="w-[150px] h-[108px] gap-[8px] text-teal-900">
+                    <button class="w-[150px] h-[50px] border rounded-[100px] gap-[10px] p-[10px] hover:bg-teal-900 hover:text-white bg-white">Tokopedia &#129122;</button>
+                    <button class="w-[150px] h-[50px] border rounded-[100px] gap-[29px] p-[10px] mt-[8px] hover:bg-teal-900 hover:text-white bg-white">Shopee &#129122;</button>
+                </span>
+            </div>
+        </nav>
+
+    </section>
+</footer>
+</html>
